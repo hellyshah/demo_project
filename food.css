@@ -1,0 +1,52 @@
+body {
+	text-align: center
+}
+table {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+td div {
+	height: 150px;
+	margin: 5px;
+}
+.divall {
+	font-size : 50px;
+	line-height: 150px;
+}
+.divall:hover{
+	transform: scale(1.1);
+}
+
+#div1 {
+	background-image: url("Image/pizza.jpg");
+	background-size: 100%;
+}
+#div2 {
+	background-image: url("Image/mexican.jpg");
+	background-size: 100%;
+}
+#div3 {
+	background-image: url("Image/chinese.jpg");
+	background-size: 100%;
+}
+#div4 {
+	background-image: url("Image/indian.jpg");
+	background-size: 100%;
+}
+#div5 {
+	background-image: url("Image/asian.jpg");
+	background-size: 100%;
+}
+#div6 {
+	background-image: url("Image/german.jpg");
+	background-size: 100%;
+}
+#div7 {
+	background-image: url("Image/italian.jpg");
+	background-size: 100%;
+}
+#div8 {
+	background-image: url("Image/greek.jpg");
+	background-size: 100%;
+}

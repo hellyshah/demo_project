@@ -1,0 +1,97 @@
+body{
+	background-image:url("Image/backgroundimage.jpg");
+}
+
+.imglayout{
+  border: 2px solid #000000;  
+  float: left;
+  height: 280px;
+  width: 280px;
+  margin: 15px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+#quotescointainer{
+    width: 100%;
+    font-size: 18px;
+    overflow: hidden; /* contain floated elements */
+	margin-top: -40px;
+}
+#quotesleft {
+    float: left;
+	height: 170px; 
+    width: 33%;
+	margin-left:5px;
+    background-color: #FADBD8;
+	font-family:"Courier New";
+	font-weight:bold;
+	color: #ff3300;
+	border-radius: 20px;
+	border: 2px solid #000000;
+}
+#quotescenter { 
+    float: left;
+	margin-left:5px;
+	height: 170px;
+	 width: 32%;
+	 font-weight:bold;
+	 color: #ff3300;
+    background-color: #FADBD8;
+	font-family:"Courier New";
+   border-radius: 20px;
+   border: 2px solid #000000;
+}
+#quotesright{
+    float: left;
+	font-weight:bold;
+	margin-left:5px;
+	border-radius: 20px;	
+	height: 170px;
+    width: 32%;
+	color: #ff3300;
+    background-color: #FADBD8;
+	font-family:"Courier New";
+	border: 2px solid #000000;
+}
+#header{
+	background-image : url('Image/headerback.jpg');
+	height : 130px;
+	width: 100%;
+	color:white;
+	font-size:40px;
+	margin-top:20px;
+	border: 3px solid black;
+	border-radius: 20px;
+	font-family:"Courier New";
+	background-size:100%;
+}
+
+#parentdiv{
+	width:100%;
+}
+.navdiv{
+	text-shadow:1px 1px 1px black;
+	float:left;
+	width:24.3%;
+	height:50px;
+	color:#cc0000;
+	line-height:50px;
+	background-color:grey;
+	text-align:center;
+	font-size: 24px;
+	margin-left:8px;
+	font-family:"Courier New";
+	font-weight:bold;
+	margin-top:20px;
+}
+.navdiv:hover{
+	color:white;
+	background-color: black;
+}
+
+.topic{
+	background-color: black;
+	color:white;
+}
+

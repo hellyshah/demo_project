@@ -1,0 +1,85 @@
+.artsheader{
+	align:middle;
+	border: 5px solid orange;
+	margin-top:15px;	
+	width: 400px
+}
+header{
+text-align:center;
+margin-top:5px;
+}
+footer{
+	padding: 1em;
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+}
+
+.toppage4{
+	font-size:20px;
+	background-color:#EBEFF7;
+	width:400px;
+	border: 2px solid black;
+	border-radius:15px;
+	margin:10px;
+	color: red;
+	font-family:"Courier New";
+	font-weight:bold;
+	float:left;
+}
+.innerul{
+	color: black;;	
+	font-family:"Courier New";
+	font-weight:bold;
+}
+.navdivside{
+	text-shadow:1px 1px 1px black;
+	width:90%;
+	height:80px;
+	color:#cc0000;
+	line-height:80px;
+	background-color:grey;
+	text-align:center;
+	font-size: 24px;
+	margin-left:10px;
+	font-family:"Courier New";
+	font-weight:bold;
+	margin-top:30px;
+}
+.navdivside:hover{
+	color:white;
+	background-color:black;
+}
+
+.clsTopic {
+	display: block;
+	border-bottom: 1px solid green;
+}
+.clsTopic:hover {
+	text-decoration: underline
+}
+input {
+	position: absolute;
+	left: -999em
+}
+.hide {
+	width: 100%;
+	border: 1px solid #000;
+	background: red;
+	max-height: 999em;
+	opacity: 1;
+	height: 350px;;
+	overflow: hidden;
+	transition: opacity .5s linear;
+}
+.hide span {
+	padding: 10px;
+	margin: 0
+}
+input[type=checkbox]:checked + div {
+	opacity: 0;
+	max-height: 0;
+	border: none;
+	transition: opacity .5s linear, max-height .5s linear;
+}
